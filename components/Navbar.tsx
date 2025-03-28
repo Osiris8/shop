@@ -68,8 +68,13 @@ export default function Navbaar() {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end gap-2">
+        <input
+          type="text"
+          placeholder="Search"
+          className="input input-bordered w-24 md:w-auto"
+        />
+        <a className="btn w-24 bg-primary text-primary-content">Button</a>
       </div>
     </div>
   );
