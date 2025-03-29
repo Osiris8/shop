@@ -3,7 +3,7 @@ import Hero1 from "@/public/images/Hero1.jpg";
 export default function Hero() {
   return (
     <div className="hero bg-base-200 min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse md:p-3.5">
+      <div className="hero-content flex-col lg:flex-row-reverse">
         <Image
           src={Hero1}
           className="max-w-7xl rounded-lg shadow-2xl"
