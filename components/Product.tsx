@@ -1,7 +1,7 @@
 export default function Product() {
   return (
     <div className="container max-w-full">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-1 mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-1 mx-auto p-5">
         <div className="card bg-base-100 shadow-sm m-2">
           <figure>
             <img
