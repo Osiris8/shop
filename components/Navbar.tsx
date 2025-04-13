@@ -149,8 +149,6 @@ export default function Navbaar() {
           </div>
         </div>
         {/* Cart + Profile */}
-
-        <a className="btn w-24 bg-primary text-primary-content">Button</a>
       </div>
     </div>
   );
